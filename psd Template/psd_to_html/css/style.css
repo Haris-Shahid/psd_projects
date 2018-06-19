@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 1200px;
+    min-height: 500px;
+    background-color: #b3b3b3;
+    margin: 0px auto;
+}
+
+#header {
+
+}
+#top-header{
+background: #212429;
+height: 50px;
+}
+.menu-bars .fa-bars, .social-icons i {
+    color: #ffffff;
+}
+.logo{
+    background-image: url(../images/Logo.jpg);
+    height: 49px;
+    width: 175px;
+}
+
