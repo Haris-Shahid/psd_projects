@@ -1,13 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    background: #f9f9fb;
 }
 
 #container {
     width: 1200px;
     min-height: 500px;
-    background-color: #b3b3b3;
+    background-color: #f9f9fb;
     margin: 0px auto;
 }
 
@@ -69,19 +68,91 @@
 /* End of Header Slider */
 
 /* subs form */
-#subs-form{
+#subs-form {
     width: 1100px;
     padding: 10px;
-    margin: 0px auto;
+    margin: 8px auto;
 }
 
-#subs-form input[type="text"]{
-    padding: 20px;
+#subs-form input[type="text"] {
+    padding: 10px 20px;
     font-size: 12px;
-    border: 1px solid #dddddd;
+    border: 0.5px solid #dddddd;
     background: #ffffff;
-    color: #000000;
-    width: 100%;
+    color: #999999;
+    width: 82%;
+    outline: none;
+}
+
+#subs-form input[type="button"] {
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: #212121;
+    width: 89%;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #212121;
+}
+
+#subs-form table span {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    width: 89%;
+    margin-left: 11%;
 }
 
 /* End of subs form */
+
+/* content section */
+.post {
+    font-family: 'Montserrat', sans-serif;
+    width: 23%;
+    padding: 20px 2px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.post h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #212121;
+    margin: 5px 0px;
+}
+
+.post span {
+    text-transform: uppercase;
+    margin: 5px 0px;
+    font-size: 12px;
+    color: #999999;
+    font-family: 'Hind', sans-serif;
+    font-weight: lighter;
+}
+
+.post p {
+    font-family: 'Hind', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 10px 36px;
+}
+
+.post .readmore {
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: #212121;
+    padding: 5px 10px;
+    border: 0px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    background-color: transparent;
+    outline: none;
+}
+
+/* End of content section */
