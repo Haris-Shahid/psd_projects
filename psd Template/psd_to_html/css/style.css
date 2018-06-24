@@ -64,10 +64,34 @@
 
 /* Header Slider */
 #header-slider {
-    background-image: url(../images/banner.jpg);
+    /* background-image: url(../images/banner.jpg); */
     width: 1100px;
     margin: 0px auto;
     height: 500px;
+    overflow: hidden;
+}
+#header-slider img{
+    width: 100%;
+    height: 100%;
+}
+
+#next {
+    background-image: url(../images/up.png);
+    top: 10%;
+}
+
+#previous {
+    background-image: url(../images/down.png);
+    top: 28%;
+}
+
+#next, #previous {
+    right: 12%;
+    height: 50px;
+    width: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 9999;
 }
 
 /* End of Header Slider */
@@ -128,7 +152,7 @@
 }
 
 .top-icon {
-    background-color: #212121 ;
+    background-color: #212121;
     text-align: center;
     width: 30px;
     padding: 5px 0px;
@@ -136,7 +160,7 @@
     margin: -54px 0px 0px 100px;
 }
 
-.top-icon i{
+.top-icon i {
     color: #ffffff;
 }
 
@@ -188,12 +212,12 @@
     padding: 40px 20px 20px 20px;
 }
 
-.post .withImage{
-    padding: 30px 10px 10px 10px ;
+.post .withImage {
+    padding: 30px 10px 10px 10px;
 }
 
 .post .withImage .top-icon {
-    background-color: #212121 ;
+    background-color: #212121;
     text-align: center;
     width: 30px;
     padding: 5px 0px;
@@ -210,7 +234,7 @@
     color: #ffffff;
 }
 
-#footer .footer-section{
+#footer .footer-section {
     width: 19%;
     margin: 10px 2px;
     float: left;
@@ -236,7 +260,7 @@
 }
 
 #footer .about .footer-signature {
-    background-image: url('../images/footer_signature.jpg');
+    background-image: url("../images/footer_signature.jpg");
     width: 100%;
     height: 100px;
     background-size: 100% 100px;
@@ -255,4 +279,3 @@
     word-spacing: 2px;
     text-transform: uppercase;
 }
-

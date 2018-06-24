@@ -13,6 +13,18 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
     <script src="js/masonary.js"></script>
+    <script src="js/cycleslider.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#header-slider').cycle({
+                fx: 'scrollVert',
+                next: '#next',
+                prev: '#previous'
+            });
+        });
+    </script>
+
 </head>
 
 <body>
@@ -36,7 +48,20 @@
                 </div>
             </div>
 
-            <div id="header-slider"></div>
+            <!-- slider -->
+            <div id="next"></div>
+            <div id="previous"></div>
+
+            <div id="header-slider">
+                <img src='images/banner.jpg' />
+                <img src='images/1.jpg' />
+                <img src='images/2.jpg' />
+                <img src='images/3.jpg' />
+                <img src='images/4.jpg' />
+                <img src='images/5.jpg' />
+            </div>
+            <!-- slider -->
+
             <div id="subs-form">
                 <table width='100%'>
                     <tr>
