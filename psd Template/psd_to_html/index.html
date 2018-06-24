@@ -22,6 +22,9 @@
                 next: '#next',
                 prev: '#previous'
             });
+            $('.menu-bars').click(function () {
+                $('nav').toggleClass('active-nav');
+            })
         });
     </script>
 
@@ -33,7 +36,14 @@
 
         <!-- Header -->
         <div id="header">
-
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>FAQ</li>
+                </ul>
+            </nav>
             <div id="top-header">
                 <div class="menu-bars">
                     <i class="fas fa-bars"></i>
