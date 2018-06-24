@@ -10,6 +10,11 @@
     margin: 0px auto;
 }
 
+.clear {
+    clear: both;
+    float: none;
+}
+
 /* Top Header */
 #top-header {
     background: #212429;
@@ -156,3 +161,56 @@
 }
 
 /* End of content section */
+
+/* footer */
+#footer {
+    background-color: #212429;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+#footer .footer-section{
+    width: 19%;
+    margin: 10px 2px;
+    float: left;
+    padding: 32px;
+}
+
+#footer .about h2,
+#footer .tweets h2,
+#footer .instagram h2,
+#footer .comments h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#footer .about p,
+#footer .tweets p,
+#footer .instagram p,
+#footer .comments p {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#footer .about .footer-signature {
+    background-image: url('../images/footer_signature.jpg');
+    width: 100%;
+    height: 100px;
+    background-size: 100% 100px;
+    margin-top: 20px;
+}
+
+/* End of footer */
+#footer-copyright {
+    background-color: #17191c;
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    color: #b3b3b3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+}
