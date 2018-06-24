@@ -116,11 +116,28 @@
 .post {
     font-family: 'Montserrat', sans-serif;
     width: 23%;
-    padding: 20px 2px;
     margin: 10px;
     float: left;
     text-align: center;
     background-color: #ffffff;
+    transition: 1s ease all;
+}
+
+.post:hover {
+    box-shadow: 0px 0px 20px #dbdbdb;
+}
+
+.top-icon {
+    background-color: #212121 ;
+    text-align: center;
+    width: 30px;
+    padding: 5px 0px;
+    position: absolute;
+    margin: -54px 0px 0px 100px;
+}
+
+.top-icon i{
+    color: #ffffff;
 }
 
 .post h2 {
@@ -142,10 +159,10 @@
 
 .post p {
     font-family: 'Hind', sans-serif;
-    font-weight: lighter;
     font-size: 12px;
     line-height: 20px;
-    margin: 10px 36px;
+    margin: 10px 2px;
+    width: 230px;
 }
 
 .post .readmore {
@@ -158,6 +175,30 @@
     border-right: 1px solid #d7d7d7;
     background-color: transparent;
     outline: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.post .img-box {
+    background-color: #f4f4f4;
+    height: 150px;
+}
+
+.post .post-wrapper {
+    padding: 40px 20px 20px 20px;
+}
+
+.post .withImage{
+    padding: 30px 10px 10px 10px ;
+}
+
+.post .withImage .top-icon {
+    background-color: #212121 ;
+    text-align: center;
+    width: 30px;
+    padding: 5px 0px;
+    position: absolute;
+    margin: -45px 0px 0px 110px;
 }
 
 /* End of content section */
@@ -214,3 +255,4 @@
     word-spacing: 2px;
     text-transform: uppercase;
 }
+
