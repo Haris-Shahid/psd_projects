@@ -170,6 +170,13 @@ nav ul li:hover{
 /* End of subs form */
 
 /* content section */
+#content {
+    padding-bottom: 22px;
+    visibility: hidden;
+}
+.animated{
+    visibility: visible !important;
+}
 .post {
     font-family: 'Montserrat', sans-serif;
     width: 23%;
@@ -178,6 +185,7 @@ nav ul li:hover{
     text-align: center;
     background-color: #ffffff;
     transition: 1s ease all;
+    position: relative;
 }
 
 .post:hover {
@@ -190,7 +198,8 @@ nav ul li:hover{
     width: 30px;
     padding: 5px 0px;
     position: absolute;
-    margin: -54px 0px 0px 100px;
+    top: -5%;
+    left: 45%;
 }
 
 .top-icon i {
@@ -219,7 +228,6 @@ nav ul li:hover{
     font-size: 12px;
     line-height: 20px;
     margin: 10px 2px;
-    width: 230px;
 }
 
 .post .readmore {
@@ -255,7 +263,8 @@ nav ul li:hover{
     width: 30px;
     padding: 5px 0px;
     position: absolute;
-    margin: -45px 0px 0px 110px;
+    top: 45%;
+    left: 45%;
 }
 
 /* End of content section */
@@ -311,4 +320,41 @@ nav ul li:hover{
     font-size: 9px;
     word-spacing: 2px;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px){
+    #container {
+        width: 100%;
+    }
+    #header-slider {
+        width: 100%;
+        height: auto;
+    }
+    #header-slider img{
+        width: 80%;
+    }
+    #subs-form{
+        width: 100%;
+    }
+    #subs-form table tr td{
+        display: block;
+        width: 98%;
+    }
+    .post{
+        width: 96%;
+    }
+    #footer {
+        width: 100%;
+    }
+    #footer .footer-section{
+        width: 78%;
+        display: block;
+    }
+    header .social-icons {
+        display: hidden;
+    }
+    header .logo{
+        width: 45%;
+
+    }
 }

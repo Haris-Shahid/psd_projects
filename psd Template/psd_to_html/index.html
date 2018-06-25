@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Hind|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
+        <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 
@@ -24,6 +25,12 @@
             });
             $('.menu-bars').click(function () {
                 $('nav').toggleClass('active-nav');
+            })
+            $(window).scroll(function(){
+                y = $(this).scrollTop();
+               if( y >= 426 ){
+                   $('#content').addClass('animated bounceInUp');
+               }
             })
         });
     </script>
@@ -72,7 +79,7 @@
             </div>
             <!-- slider -->
 
-            <div id="subs-form">
+            <div id="subs-form" class="animated bounceInDown" >
                 <table width='100%'>
                     <tr>
                         <td width='20%'>
@@ -94,7 +101,7 @@
         <!-- End Of Header -->
 
         <!-- Content Section -->
-        <div id="content">
+        <div id="content" >
             <div class="post">
                 <div class="post-wrapper">
                     <div class="top-icon">
