@@ -17,83 +17,6 @@
     float: none;
 }
 
-/* nav */
-nav {
-    position: absolute;
-    width: 250px;
-    background-color: #212429;
-    top: 0px;
-    bottom: 0px;
-    z-index: 1000;
-    margin-top: 50px;
-    transform: translate3d(-250px, 0, 0);
-    transition: all 1s ease;
-}
-nav ul li {
-    color: #ffffff;
-    padding: 20px;
-    border-bottom: 1 solid #758193;
-}
-
-nav ul li:hover{
-    background-color: #ffffff;
-    color: #212429;
-    transition: all 2s ease;
-}
-
-.active-nav {
-    transform: translate3d(0px, 0, 0);
-}
-
-/* nav */
-
-/* Top Header */
-#top-header {
-    background: #212429;
-    height: 50px;
-}
-
-.menu-bars {
-    width: 30%;
-}
-
-.menu-bars .fa-bars {
-    color: #ffffff;
-    padding: 16px 20px 16px 20px;
-    border: 1px solid #2e303c;
-}
-
-.menu-bars, .logo, .social-icons {
-    float: left;
-}
-
-.logo {
-    background-image: url(../images/Logo.jpg);
-    height: 49px;
-    width: 30%;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-position: top;
-    margin-top: -4px;
-}
-
-.social-icons {
-    width: 40%;
-    text-align: right;
-}
-
-.social-icons i:nth-child(1) {
-    border-left: 1px solid #2e303c;
-}
-
-.social-icons i {
-    color: #ffffff;
-    padding: 17px 20px 16px 20px;
-    border-right: 1px solid #2e303c;
-}
-
-/* End of Top Header */
-
 /* Header Slider */
 #header-slider {
     /* background-image: url(../images/banner.jpg); */
@@ -323,10 +246,8 @@ nav ul li:hover{
 }
 
 @media only screen and (max-width: 600px){
-    #container {
-        width: 100%;
-    }
-    #header-slider {
+    
+    /* #header-slider {
         width: 100%;
         height: auto;
     }
@@ -349,12 +270,5 @@ nav ul li:hover{
     #footer .footer-section{
         width: 78%;
         display: block;
-    }
-    header .social-icons {
-        display: hidden;
-    }
-    header .logo{
-        width: 45%;
-
-    }
+    } */
 }
